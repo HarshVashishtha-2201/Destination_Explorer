@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destination Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <a href="index.html" style="text-decoration: none; color: inherit;">Destination Explorer</a>
+        </h1>
+        <div class="search-container">
+            <input type="text" placeholder="Enter a city" id="search-bar">
+            <button id="search-button">Search</button>
+        </div>
+    </header>
+    
+    <main>
+        <div class="card-container">
+            <!-- Example Card -->
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2021/07/30/20/28/montmartre-6510653_640.jpg" alt="Paris">
+                <h3 contenteditable="true">Paris</h3>
+                <p>The city of lights, love, and art.</p>
+                <ul>
+                    <li>Visit the Eiffel Tower</li>
+                    <li>Explore the Louvre Museum</li>
+                    <li>Stroll through Montmartre</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2014/06/06/09/36/sydney-opera-house-363244_640.jpg" alt="Sydney">
+                <h3 contenteditable="true">Sydney</h3>
+                <p>The vibrant harbor city of Australia.</p>
+                <ul>
+                    <li>Visit the Sydney Opera House</li>
+                    <li>Relax at Bondi Beach</li>
+                    <li>Climb the Sydney Harbour Bridge</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2022/04/13/13/55/india-7130382_640.jpg" alt="New Delhi">
+                <h3 contenteditable="true">New Delhi</h3>
+                <p>India's bustling capital with rich history.</p>
+                <ul>
+                    <li>Visit the Red Fort</li>
+                    <li>Explore Qutub Minar</li>
+                    <li>Wander through Chandni Chowk</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2020/02/13/13/48/naples-4845738_640.jpg" alt="Florida">
+                <h3 contenteditable="true">Florida</h3>
+                <p>The Sunshine State of the USA.</p>
+                <ul>
+                    <li>Relax at Miami Beach</li>
+                    <li>Visit Walt Disney World</li>
+                    <li>Explore the Everglades</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/04/01/00/08/toronto-1298016_640.jpg" alt="Toronto">
+                <h3 contenteditable="true">Toronto</h3>
+                <p>Canada's multicultural urban hub.</p>
+                <ul>
+                    <li>View the city from CN Tower</li>
+                    <li>Explore Royal Ontario Museum</li>
+                    <li>Walk through Distillery District</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2021/05/28/10/05/kunsthistorisches-museum-6290417_640.jpg" alt="Vienna">
+                <h3 contenteditable="true">Vienna</h3>
+                <p>The heart of classical music and art.</p>
+                <ul>
+                    <li>Visit Schönbrunn Palace</li>
+                    <li>Explore Belvedere Museum</li>
+                    <li>Attend a classical concert</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2013/11/15/02/04/science-world-210775_640.jpg" alt="Vancouver">
+                <h3 contenteditable="true">Vancouver</h3>
+                <p>Nature meets modern urban living.</p>
+                <ul>
+                    <li>Stroll in Stanley Park</li>
+                    <li>Visit Granville Island</li>
+                    <li>Enjoy Grouse Mountain</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2020/01/21/08/06/indian-temple-4782290_640.jpg" alt="Mathura">
+                <h3 contenteditable="true">Mathura</h3>
+                <p>The birthplace of Lord Krishna in India.</p>
+                <ul>
+                    <li>Visit Krishna Janmabhoomi Temple</li>
+                    <li>Explore Kusum Sarovar</li>
+                    <li>Attend the Holi festival</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2022/12/07/05/57/building-7640276_640.jpg" alt="Gangtok">
+                <h3 contenteditable="true">Gangtok</h3>
+                <p>A serene hill station in Sikkim.</p>
+                <ul>
+                    <li>Explore Tsomgo Lake</li>
+                    <li>Visit Rumtek Monastery</li>
+                    <li>Enjoy a cable car ride</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2022/02/15/22/10/town-7015699_640.jpg" alt="Prague">
+                <h3 contenteditable="true">Prague</h3>
+                <p>The city of a hundred spires.</p>
+                <ul>
+                    <li>Walk across Charles Bridge</li>
+                    <li>Visit Prague Castle</li>
+                    <li>Explore Old Town Square</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2010/11/29/india-294_640.jpg" alt="Mumbai">
+                <h3 contenteditable="true">Mumbai</h3>
+                <p>India's city of dreams and Bollywood.</p>
+                <ul>
+                    <li>Visit Gateway of India</li>
+                    <li>Relax at Marine Drive</li>
+                    <li>Explore Elephanta Caves</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2015/03/11/12/31/buildings-668616_640.jpg" alt="New York City">
+                <h3 contenteditable="true">New York City</h3>
+                <p>The city that never sleeps.</p>
+                <ul>
+                    <li>Visit Times Square</li>
+                    <li>Explore Central Park</li>
+                    <li>Tour the Statue of Liberty</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/07/30/08/13/moscow-1556561_640.jpg" alt="Moscow">
+                <h3 contenteditable="true">Moscow</h3>
+                <p>The historical and cultural heart of Russia.</p>
+                <ul>
+                    <li>Visit Red Square</li>
+                    <li>Explore Kremlin</li>
+                    <li>Tour St. Basil's Cathedral</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2020/11/12/16/55/road-5736078_640.jpg" alt="London">
+                <h3 contenteditable="true">London</h3>
+                <p>A city steeped in history and culture, with a vibrant modern twist.</p>
+                <ul>
+                    <li>Visit the Tower of London</li>
+                    <li>Explore the British Museum</li>
+                    <li>Take a ride on the London Eye</li>
+                </ul>
+            </div>
+            <div class="card">
+                <img src="https://cdn.pixabay.com/photo/2016/07/30/08/13/moscow-1556561_640.jpg" alt="New Jersey">
+                <h3 contenteditable="true">New Jersey</h3>
+                <p>Known for its beaches, boardwalks, and stunning Atlantic coastline.</p>
+                <ul>
+                    <li>Walk along the Atlantic City Boardwalk</li>
+                    <li>Visit Liberty State Park</li>
+                    <li>Explore Cape May Lighthouse</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <span class="close-button" id="close-button">&times;</span>
+            <div id="modal-details"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
